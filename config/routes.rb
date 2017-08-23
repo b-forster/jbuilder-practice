@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get 'posts/index'
 
-  resources :products, only: [:index]
+  resources :posts, only: [:index]
 end
